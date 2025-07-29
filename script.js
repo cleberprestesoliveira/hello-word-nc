@@ -5,3 +5,12 @@ function inseriNome() {
 }
 
 inseriNome();
+
+let aluno1 = {
+  nome: "Gabriel",
+  idade: 13,
+  anoLetivo: "2ºsérie",
+  materiasFavoritas: ["Geografia","Programação","Arte"]
+}
+
+console.log(aluno1.materiasFavoritas[1]);
