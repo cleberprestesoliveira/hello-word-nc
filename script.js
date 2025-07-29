@@ -18,3 +18,6 @@ console.log(aluno1.idade); // 13
 console.log(aluno1.materiasFavoritas);
 // ["Geografia","Programação","Arte"]
 console.log(aluno1.materiasFavoritas[1]);
+
+const objeto = document.querySelector("#aluno");
+objeto.textContent = aluno1.nome;
